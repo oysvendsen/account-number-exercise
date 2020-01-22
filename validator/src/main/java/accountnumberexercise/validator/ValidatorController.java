@@ -11,6 +11,9 @@ public class ValidatorController {
     @GetMapping("/ping")
     public void ping(){}
 
+    @GetMapping("/")
+    public void root(){}
+
     @GetMapping("/validate")
     public boolean validate(String bban) {
         if (ValidateBban.validatePattern(bban, CountryCode.NORWAY)) {
