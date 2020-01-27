@@ -44,11 +44,13 @@
 			</exclusions>
 		</dependency>
 
+<!--
 		<dependency>
 			<groupId>com.evry.fs.enterprise.core.common</groupId>
 			<artifactId>core-common-validator</artifactId>
 			<version>1.64</version>
 		</dependency>
+-->
 	</dependencies>
 
 	<build>
