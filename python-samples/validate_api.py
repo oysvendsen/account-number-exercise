@@ -5,6 +5,6 @@ pip install requests
 """
 import requests
 
-response = requests.get("https://account-number-exercise.herokuapp.com/validate?bban=12345678911")
-
-print(bool(response.content))
+def validate(account_number):
+	response = requests.get("https://account-number-exercise.herokuapp.com/validate?bban="+account_number)
+	print("account-number " + account_number + " is valid? " + bool(response.json()))

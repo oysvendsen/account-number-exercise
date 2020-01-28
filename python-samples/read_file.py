@@ -1,7 +1,5 @@
-filename = "path/to/sample.txt"
-lines = []
-
-with open(filename, "r") as infile:
-	lines.append(infile.read())
-	
-print(lines)
+def read_account_number_file(filename):
+	lines = []
+	with open(filename, "r") as infile:
+		lines.append(infile.read())
+	return lines
