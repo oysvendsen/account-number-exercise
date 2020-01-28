@@ -9,6 +9,6 @@ Sample code for how to query the rest api and read the file can be found in "pyt
 Instructions
 ------------
  1. Read the txt-file in [norwegian-account-numbers](norwegian-account-numbers/).
- 2. Calculate the appropriate controldigit for each and accountnumber and replace the '?' in the account-number.
+ 2. Calculate the appropriate controldigit for each accountnumber and replace the '?' in the account-number.
  3. Query the rest api to check that the control digit is correct.
  4. If a control digit cannot be calculated for the given account number; declare that it is invalid.
